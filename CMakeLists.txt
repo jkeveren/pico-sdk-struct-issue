@@ -27,7 +27,7 @@ target_link_libraries(${PROJECT_NAME}
 # add_compile_options(-Wall -Werror -g3 -O0)
 add_compile_options(-Wall -Werror)
 
-pico_enable_stdio_usb(${PROJECT_NAME} 1)
+# pico_enable_stdio_usb(${PROJECT_NAME} 1)
 pico_enable_stdio_uart(${PROJECT_NAME} 1)
 
-pico_add_extra_outputs(${PROJECT_NAME})
+# pico_add_extra_outputs(${PROJECT_NAME})
